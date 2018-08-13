@@ -1,0 +1,118 @@
+/***Ordered Items***/
+  /**a tag**/
+  a:hover{
+    text-decoration: none;
+  }
+
+  a{
+    color: #0b3c65;
+  }
+  
+  /**upperbar**/
+    .upperbar{
+    background-color: #0b3c65;
+    height: 175px;
+  }
+  /**upperbar h1**/
+  .upperbar h1{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-top:0px;
+    padding-top: 37px;
+  }
+
+  /**Start of the main body of the page**/
+  /**titles**/
+  .half h2{
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #0b3c65;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .half .inception{
+    margin-bottom: 50px;
+  }
+
+  /**smaller titles**/
+  .half h2 .firsthalf{
+    font-weight: normal;
+  }
+
+  .half h2 .secondhalf{
+    font-weight: bold;
+  }
+
+  /**regular text**/
+  .half h3{
+    color: #0b3c65;
+    font-weight: bold;
+    text-align:left;
+    font-size: 1.5em;
+  }
+
+  .half p{
+    margin-top: 20px;
+    text-align:justify;
+    font-size: 1.2em;
+  }
+
+  /**circle on icon**/
+  .circleBase{
+    border-radius: 50%;
+
+  }
+
+  .type1{
+    width: 100%;
+    height: auto;
+    border:10px solid #008139;
+  }
+
+  /**first paragraph**/
+  .firstp{
+    padding-bottom: 40px;
+  }
+
+  /**vision/mision paragraph**/
+  .vision{
+    padding-top: 40px;
+    padding-bottom:60px;
+  }
+
+  /**team paragraph**/
+  .team{
+    padding-top:40px;
+    padding-bottom:60px;
+  }
+
+  /**seal paragraph**/
+  .seal{
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+
+/***Media Only***/
+  /**body adjustment**/
+  @media Only screen and (max-width: 845px){
+    .half p{
+      margin-top: 20px;
+      text-align:justify;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .half h3{
+      color: #0b3c65;
+      font-weight: bold;
+      text-align:left;
+      font-size: 1.5em;
+      padding-left: 5%;
+      padding-right:5%;
+    }
+  }

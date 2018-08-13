@@ -1,0 +1,43 @@
+#video_container{
+    width: 100%;
+}
+
+#video_container>video{
+    width: 100%;
+}
+
+figure.iconos,
+figure.lco{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+figure.iconos img{
+    padding: 10% 25%;
+}
+
+figure.iconos img,
+figure.lco img{
+    width: 100%;
+}
+figure.iconos > p{
+    font-size: 1.2em;
+}
+
+h1{
+    background-color: #063971;
+    color: white;
+    font-size: 2.5em;
+    padding-left: 3%;
+}
+.light{
+    font-weight: lighter;
+}
+.strong{
+    font-weight: bolder;
+}
+
+#green{
+    background-color: green;
+}
